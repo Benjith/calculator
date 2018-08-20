@@ -1,0 +1,36 @@
+page-home {
+
+}
+
+.header .col {
+    background-color:lightgrey;
+}
+
+.col {
+    border: solid 1px grey;
+    border-bottom-style: none;
+    border-right-style: none;
+}
+
+.col:last-child {
+    border-right: solid 1px grey;
+}
+
+.row:last-child .col {
+    border-bottom: solid 1px grey;
+}
+.whitearea{
+    height: 25%;
+}
+.sumDisplay{
+    float: right;
+    font-size: 33px;
+}
+.displayarea{
+    
+    height: 50px;
+}
+.calfunc{
+    width: 100%;
+    position: absolute; bottom: 0px;
+}
